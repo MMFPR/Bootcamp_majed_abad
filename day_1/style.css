@@ -1,0 +1,17 @@
+h1{
+    color: aqua;
+    background-color: red;
+}
+
+
+div{
+    padding: 6px 25px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 249, 240);
+}
+
+div:hover{
+    background-color: azure;
+}
