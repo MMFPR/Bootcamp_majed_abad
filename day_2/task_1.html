@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>نموذج تواصل</title>
+    <link rel="stylesheet" href="style_task_1.css">
+</head>
+
+
+<body>
+    <h2>تواصل معنا</h2>
+    <form>
+        <div>
+            <label>الاسم</label><br>
+            <input class="customInput" type="text" name="name" required>
+        </div>
+
+        <div>
+            <label>البريد الإلكتروني</label><br>
+            <input class="customInput" type="email" name="email" required>
+        </div>
+
+        <div>
+            <label>الرسالة</label><br>
+            <textarea class="customInput" name="message" rows="4" cols="30"></textarea>
+        </div>
+
+        <div>
+            <label>النوع</label>
+            <input type="radio" name="gender">ذكر
+            <input type="radio" name="gender">انثى
+        </div>
+
+        <div>
+            <label>الدولة</label>
+            <select name="arab_country" required>
+                <option selected disabled>اختر الدولة: </option>
+                    <option value="sa">السعودية</option>
+                    <option value="eg">مصر</option>
+                    <option value="ae">الإمارات</option>
+                    <option value="kw">الكويت</option>
+                    <option value="qa">قطر</option>
+                    <option value="bh">البحرين</option>
+                    <option value="om">عُمان</option>
+                    <option value="jo">الأردن</option>
+                    <option value="lb">لبنان</option>
+                    <option value="sy">سوريا</option>
+                    <option value="iq">العراق</option>
+                    <option value="ps">فلسطين</option>
+                    <option value="ye">اليمن</option>
+                    <option value="sd">السودان</option>
+                    <option value="dz">الجزائر</option>
+            </select>
+        </div>
+        
+        <div>
+            <label>الهوايات:</label><br>
+
+            <input type="checkbox" name="hobbies">
+            <label>القراءة</label>
+
+            <input type="checkbox" name="hobbies">
+            <label>الرياضة</label><br>
+
+            <input type="checkbox" name="hobbies">
+            <label>السفر</label>
+
+            <input type="checkbox" name="hobbies">
+            <label>الاستماع للموسيقى</label><br>
+
+            <input type="checkbox" name="hobbies">
+            <label>الرسم</label>
+
+            <input type="checkbox" name="hobbies">
+            <label>البرمجة</label><br>
+        </div>
+
+        <div><br>
+            <button type="submit">إرسال</button>
+        </div>
+        
+    </form>
+</body>

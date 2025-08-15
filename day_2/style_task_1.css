@@ -1,0 +1,51 @@
+body{
+    direction: rtl;
+    text-align: right;
+    background-color: rgb(179, 255, 229);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+div{
+    margin-top: 5px;
+}
+
+form{
+  background-color: rgb(240, 255, 250);
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  max-width: 400px;
+  box-shadow: 0 0 8px rgb(112, 112, 112);
+}
+
+input, textarea, select{
+    padding: 3px;
+    margin-top: 5px;
+    border-radius:5px;
+}
+
+.customInput{
+    padding: 3px;
+    margin-top: 5px;
+    width: 50%;
+}
+
+input:focus
+{
+  background-color: #666666;
+  color: white;
+}
+
+button{
+    width: 80px;
+    height: 25px;
+    border-radius: 25px;
+
+}
+
+button:hover
+{
+    background-color: #004d03;
+    color: white;
+}
